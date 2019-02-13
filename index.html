@@ -83,7 +83,7 @@
 				<div class="row">
 					<div id="services_title" class="col-md-12 wrap">							
 						<h2>MEET OUR BEAUTIFUL TEAM</h2>								
-						<div class="separate gray"><span> </span></div>
+						<div class="separate gray"><span></span></div>
 						<h4>We are a small team of designers and developers, who help brands with big ideas.</h4>
 					</div>						
 				</div>
@@ -101,7 +101,7 @@
 								<li><a href=""><i class="fab fa-twitter"> </i> </a></li>
 								<li><a href=""><i class="fab fa-linkedin-in"> </i> </a></li>
 								<li><a href=""><i class="fas fa-envelope"> </i> </a></li>
-								<div class="clear"> </div>
+								<div class="clear"></div>
 							</ul>
 						</div>
 					</div>
@@ -116,7 +116,7 @@
 								<li><a href=""><i class="fab fa-twitter"> </i> </a></li>
 								<li><a href=""><i class="fab fa-linkedin-in"> </i> </a></li>
 								<li><a href=""><i class="fas fa-envelope"> </i> </a></li>
-								<div class="clear"> </div>
+								<div class="clear"></div>
 							</ul>
 						</div>
 					</div>
@@ -144,12 +144,42 @@
 						<br>
 						<div class="social_networks">
 							<ul>
-								<li><a href=""> <i class="fab fa-facebook"> </i> </a></li>
-								<li><a href=""><i class="fab fa-twitter"> </i> </a></li>							
-								<li><a href=""><i class="fas fa-envelope"> </i> </a></li>
-								<div class="clear"> </div>
+								<li><a href=""><i class="fab fa-facebook"></i></a></li>
+								<li><a href=""><i class="fab fa-twitter"></i></a></li>							
+								<li><a href=""><i class="fas fa-envelope"></i></a></li>
+								<div class="clear"></div>
 							</ul>
 						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+				<section class=" section_container skills">
+			<div class="container-fluid col-sm-10">
+				<div class="row">
+					<div id="services_title" class="col-md-12 wrap">							
+						<h2>WE GOT SKILLS!</h2>
+						<div class="separate gray"><span></span></div>
+						<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.</h4>
+					</div>						
+				</div>
+				<br>
+				<div class="row list">								
+					<div class="col-sm-3 group">						
+						<div class="circle" id="circles-1"></div>
+						<h3>WEB DESIGN</h3>	
+					</div>
+					<div class="col-sm-3 group">
+						<div class="circle" id="circles-2"></div>
+						<h3>HTML / CSS</h3>
+					</div>
+					<div class="col-sm-3 group">
+						<div class="circle" id="circles-3"></div>
+						<h3>GRAPHIC DESIGN</h3>
+					</div>
+					<div class="col-sm-3 group"> 
+						<div class="circle" id="circles-4"></div>
+						<h3>UI / UX</h3>
 					</div>
 				</div>
 			</div>
@@ -170,6 +200,53 @@
 	</footer>
 	<script src="cdns/js/jquery-3.3.1.slim.min.js"></script>
 	<script src="cdns/js/popper.min.js"></script>
-	<script src="cdns/js/bootstrap.min.js"></script>	
+	<script src="cdns/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/circles.js"></script>	
+	<script>				
+	Circles.create(
+		{
+		id:'circles-1',
+		percentage: 90,
+		radius:     80,
+		width:      15,
+		number:   	90,
+		text:       '%',
+		colors:['#dfe8ed', '#30bae7']
+		}
+	);
+	Circles.create(		
+		{
+		id:'circles-2',
+		percentage: 75,
+		radius:     80,
+		width:      15,
+		number:   	75,
+		text:       '%',
+		colors:['#dfe8ed', '#d74680']
+		}			
+	);
+	Circles.create(			
+		{
+		id:'circles-3',
+		percentage: 70,
+		radius:     80,
+		width:      15,
+		number:   	70,
+		text:       '%',
+		colors:['#dfe8ed', '#15c7a8']
+		}
+	);
+	Circles.create(			
+		{
+		id:'circles-4',
+		percentage: 85,
+		radius:     80,
+		width:      15,
+		number:   	85,
+		text:       '%',
+		colors:['#dfe8ed', '#eb7d4b']
+		}
+	);		
+	</script>		
 </body>
 </html>
