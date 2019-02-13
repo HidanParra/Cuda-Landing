@@ -192,6 +192,12 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
 .green span{
 	background:#14a58c;
 }
+.gray span{
+	background:#c8d9e5;
+}
+.yellow span{
+	background:#e5c37f;
+}
 /*END SEPARATOR*/
 
 .group {
