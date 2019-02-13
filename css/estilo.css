@@ -135,8 +135,103 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
     width: 85%;
 }
 /*END SERVICES SECTION*/
-
-
+.team{    
+    background-color: #e7f1f8;
+    /*height: 900px;*/
+}
+.team h2{
+    font-size: 2.2em;
+    color: #3c4761;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    -webkit-text-stroke-width: 2px;
+    margin-top:100px;
+}
+.team h4 {
+    color:#3c4761;
+    font-size:1.2em;
+    text-align:center;
+    font-weight:400;
+    width:70%;
+    margin:0 auto;  
+    padding-top: 1em;
+}
+.team .list{
+    padding: 0 10px;
+}
+.team .list img{
+    max-width:100%;
+    max-height: 125px;
+    margin:25px 20px;
+    border-radius: 100%;
+}
+.team .list h3{
+    font-size:1.4em;
+    color:#3c4761;
+    text-align:center;
+    font-weight:500;
+    text-transform:uppercase;
+    -webkit-text-stroke:2px;
+    letter-spacing:1px;
+    margin-top:10px;
+}
+.team .list h5{
+    font-size:1em;
+    font-weight: 400;
+    color:#30bae7;
+    text-align:center;
+}
+.team .list p{
+    font-size:1em;
+    color:#3c4761;
+    text-align: center;
+    margin: 0 auto;
+    padding:10px 0;
+    line-height:1.6em;
+    width: 90%;
+}
+.social_networks{   
+    
+    margin-top:1em;
+}
+.social_networks ul{
+    padding-left: 0px !important;
+}
+.social_networks li{
+    display:inline-block;
+    margin-left:7px;
+    text-align: center;
+}
+.social_networks li:first-child{
+    margin-left:0;
+    width: 25px;
+}
+.social_networks li a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    display:block;
+    background:#bdd1df;
+    padding:5px;
+    border-radius:100%;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    -o-border-radius:100%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.social_networks li a:hover{
+    background:#4A8FC0;
+}
+.social_networks li a i{
+    
+    width:auto;
+    height:auto;
+    display:block;  
+}
 /*BUTTONS*/
 .button{
 	text-align:center;
