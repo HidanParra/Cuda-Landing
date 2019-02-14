@@ -340,7 +340,20 @@ header .nav-link:hover, header .active{background: #643a79; color: #fff;}
     margin-top: 10px;
 
 }
-
+/*PORTAFOLIO*/
+.portafolio{background-color: #ffdd99; }
+.portafolio h2{color: #2c3033; text-align: center; margin-top:90px; letter-space:7px; font-weight: bold;}
+.portafolio h4{color: #2c3033; text-align: center; margin-top: 20px; letter-space: 5px; font-weigt:bold;}
+.portafolio .cuadros1 img{widht: 190px; height: 190px; margin: 30px;}
+.portafolio .cuadros2 img{widht: 190px; height: 190px; margin: 30px;}
+.equipo h3{color: #2c3033; text-align: center; margin-top: 20px; letter-space: 5px; font-weigt:bold;}
+.portafolio .boton_boton{height: 445px; display:flex; align-items: center;flex-direction: column; justify-content: center;}
+.portafolio .boton_proyecto a{display: block; font-weight: bold; color: #fff; padding: 20px; background: #17c1a4; border-radius: 4px;}
+.portafolio .boton_proyecto a:hover{background: #00b495;}
+.portafolio nav{background: e5c37f;}
+.portafolio .nav-link{color: #2c3033;border-radius: 5px;}
+.portafolio .nav-link:hover {background: #ffffff;}
+.portafolio .active{background: #e5c37f;}
 /*FOOTER*/
 footer{
     text-align: center;
